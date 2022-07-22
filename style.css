@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    background: #201b2c;
+    font-family: "Noto Sans", sans-serif;
+    
+}
+
+div h1 {
+    text-align: center;
+    color: #4cee7c;
+    font-size: 4rem;
+}
+
+.container {
+
+    background: #3a314e;
+    width: 55rem;
+    margin: 0 auto;
+    height: 25rem;
+    border-radius: 5px;
+    margin-top: 5rem;
+    border: #4cee7c solid 2px;
+}
+
+@media (max-width: 35rem)
+{
+    div h1 {
+        text-align: center;
+        color: #4cee7c;
+        font-size: 3rem;
+    }
+
+    .container
+   {
+    background: #3a314e;
+    width: 30rem;
+    margin: 0 auto;
+    height: 25rem;
+    border-radius: 5px;
+    margin-top: 5rem;
+    border: #4cee7c solid 2px;
+   }
+}
+
+div h3 {
+    color: #4cee7c;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#spaceNumberInner,
+#spaceConvertInner {
+    width: 16rem;
+    height: 3rem;
+    background-color: #6a6080;
+    border: #4cee7c 1px solid;
+    font-size: 2rem;
+    color: #c1eace;
+    position: relative;
+    font-family: 'JetBrains Mono', sans-serif;
+    text-align: end;
+}
+
+.buttonConvert {
+    width: 5rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #201b2c;
+    background-color: #4cee7c;
+    border-radius: 4px;
+    border: none;
+}
+
+.buttonConvert:hover {
+    background-color: #c1eace;
+    cursor: pointer;
+    color: #3e3651
+}
+
+.secondContainer {
+    position: relative;
+    top: 4rem;
+}
+
+.thirdContainer {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.buttons {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+
+.containerButtons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.buttons button {
+    padding: .8rem;
+    font-size: 2rem;
+    background-color: #4cee7c;
+    border: none;
+    border-radius: 1px;
+    width: 5rem;
+}
+
+#clean {
+    width: 7rem;
+    margin-top: 0.5rem;
+}
+
+.buttons button:hover {
+    background-color: #c1eace;
+    cursor: pointer;
+    color: #3e3651
+}
+
+.buttons p {
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
